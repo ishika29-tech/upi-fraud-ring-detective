@@ -1,0 +1,8 @@
+falkordb>=1.8
+python-dotenv>=1.0
+google-genai>=1.30
+openai>=1.40
+streamlit>=1.40
+pyvis==0.3.2
+mcp[cli]>=1.10,<2
+pytest>=8

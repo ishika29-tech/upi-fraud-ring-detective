@@ -1,0 +1,13 @@
+# Starts FalkorDB locally.  Run:  docker compose up -d
+# 6379 = the database (our Python code connects here)
+# 3000 = FalkorDB Browser (open http://localhost:3000 to look at the graph yourself)
+services:
+  falkordb:
+    image: falkordb/falkordb:latest
+    ports:
+      - "6379:6379"
+      - "3000:3000"
+    volumes:
+      - falkordb_data:/var/lib/falkordb/data
+volumes:
+  falkordb_data:

@@ -1,0 +1,62 @@
+{
+  "rings": {
+    "device_farm": [
+      "ACC10288",
+      "ACC26622",
+      "ACC29503",
+      "ACC46758",
+      "ACC48542",
+      "ACC59616",
+      "ACC92696",
+      "ACC95682"
+    ],
+    "layering_chain": [
+      "ACC33288",
+      "ACC34618",
+      "ACC65658",
+      "ACC77159",
+      "ACC98257"
+    ],
+    "fan_out_structuring": [
+      "ACC35076",
+      "ACC36420",
+      "ACC45410",
+      "ACC49309",
+      "ACC63754",
+      "ACC77815",
+      "ACC98414"
+    ],
+    "one_phone_many_upi": [
+      "ACC40156",
+      "ACC41212",
+      "ACC43731",
+      "ACC80621",
+      "ACC89234"
+    ],
+    "fake_merchant": [
+      "ACC37353",
+      "ACC58618",
+      "ACC71949"
+    ]
+  },
+  "innocent": {
+    "family_shared_tablet": [
+      "ACC23438",
+      "ACC59971",
+      "ACC79050"
+    ],
+    "big_rent_payment": [
+      "ACC72974",
+      "ACC88411"
+    ]
+  },
+  "flagged_transactions": {
+    "TXN502640": "device_farm",
+    "TXN502668": "layering_chain",
+    "TXN502673": "fan_out_structuring",
+    "TXN502694": "one_phone_many_upi",
+    "TXN502718": "fake_merchant",
+    "TXN502765": "innocent_family",
+    "TXN502766": "innocent_big_payment"
+  }
+}
