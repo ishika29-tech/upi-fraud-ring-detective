@@ -1,5 +1,10 @@
 # 🕵️ UPI Fraud Ring Detective
 
+*Submitted as Sherlock Pay*
+
+🔴 [Live demo](https://upi-fraud-detective.streamlit.app) · 🎥 [Demo video](https://youtu.be/_oTZMlVvnbI) · 📝 [Blog post](https://dev.to/ishika29tech/we-gave-an-ai-agent-one-185000-upi-payment-it-walked-the-graph-and-found-the-mule-ring-2dpl)
+
+
 **An AI agent that starts from ONE flagged UPI payment, walks a FalkorDB graph hop by hop, uncovers the whole mule ring, freezes it, and shows exactly why.**
 
 Built for **Graph Hacks: Context for AI Agents** (WeMakeDevs × FalkorDB), **Track 1: Agents That Act on Connected Data**.
